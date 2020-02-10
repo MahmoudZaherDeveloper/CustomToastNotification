@@ -47,15 +47,9 @@ CustomToast.showCustomToast(
         )
  ```      
  ## Paramters will be as below:
- ```
- showCustomToast(
-             mContext: Context,
-             toastIcon: Int,
-             toastBackgroundColor: Int,
-             toastTextColor: Int,
-             toastMessage: String
-         )
-```
+
+ ## showCustomToast( mContext: Context,toastIcon: Int,toastBackgroundColor: Int,toastTextColor: Int,toastMessage: String )
+
 
 * Screenshots  
 <img src="screenshots/Screenshot_1581368886.png" width="250"/><img src="screenshots/Screenshot_1581369167.png" width="250"/> 
