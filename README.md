@@ -37,6 +37,19 @@ dependencies {
 ## Library functionality relies on CustomToast class.
 
 * Kotlin code 
+
+ ## Paramters will be as below:
+ ```
+ showCustomToast(
+             mContext: Context,
+             toastIcon: Int,
+             toastBackgroundColor: Int,
+             toastTextColor: Int,
+             toastMessage: String
+         )
+```
+
+* you can call it in your activity like this
 ```
 CustomToast.showCustomToast(
             this,
@@ -46,10 +59,6 @@ CustomToast.showCustomToast(
             "This Is A Custom Toast!"
         )
  ```      
- ## Paramters will be as below:
-
- ## showCustomToast( mContext: Context,toastIcon: Int,toastBackgroundColor: Int,toastTextColor: Int,toastMessage: String )
-
 
 * Screenshots  
 <img src="screenshots/Screenshot_1581368886.png" width="250"/><img src="screenshots/Screenshot_1581369167.png" width="250"/> 
