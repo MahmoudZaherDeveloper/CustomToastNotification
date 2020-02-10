@@ -49,7 +49,7 @@ dependencies {
          )
 ```
 
-* you can call it like this
+* you can call it in your activity like this
 ```
 CustomToast.showCustomToast(
             this,
